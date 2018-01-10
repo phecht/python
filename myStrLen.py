@@ -1,8 +1,8 @@
 def my_string_length(myString):
     if type(myString) == str:
         return len(myString)
-    elif type(myString) == float:
-        return "Float, no string!"
+'''     elif type(myString) == float:
+        return "Float, no string!" '''
     else:
         return "Not a string!"
   
