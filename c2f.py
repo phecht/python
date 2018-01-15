@@ -9,8 +9,8 @@ celsius = input("Celsius:")
 
 print(c2f(float(celsius)))
 
-temperatures=[10,-20,-289,100]  
+#temperatures=[10,-20,-289,100]  
 
-for temp in temperatures:
-    print(c2f(float(temp)))
+#for temp in temperatures:
+#    print(c2f(float(temp)))
 
