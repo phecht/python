@@ -34,9 +34,7 @@ def remove_lines_from_file(file_name):
         file.truncate()
 
         for line in content:
-            # if line from makeStringLine is the line, don't print it back.
-            # website is a created variable from website_list. Created for each
-            # entry in website_list.
+            # If the line does NOT have BLOCK_ADDER, write the line.
             if not BLOCK_ADDER in line:
                 file.write(line)
                 print("writing:"+line)
