@@ -1,5 +1,6 @@
 '''Modifies the HOSTS_PATH file.
-takes the '''
+takes the list of websites from WEBSITE_LIST and
+modifes the give HOSTS_PATH file.'''
 import time
 from datetime import datetime as dt
 
