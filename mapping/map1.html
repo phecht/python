@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_2fb082c599764579a94474f725083562 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2fb082c599764579a94474f725083562" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_2fb082c599764579a94474f725083562 = L.map(
+                                  'map_2fb082c599764579a94474f725083562',
+                                  {center: [48.7767982,-121.810997],
+                                  zoom: 6,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_4c6eb87528744e41bd9ec0aad93d2fc6 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_2fb082c599764579a94474f725083562);
+        
+    
+            var feature_group_1d7c9769c0f647578728c07b16c1c66f = L.featureGroup(
+                ).addTo(map_2fb082c599764579a94474f725083562);
+        
+    
+            var circle_marker_8a301ad355f54a70b2ed3efa5ad5b67c = L.circleMarker(
+                [48.7767982,-121.810997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_9153b38a78cd4067894b0fba7c5f32a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_fdbac7661cb24cdd8b58e78778f5e992 = $('<div id="html_fdbac7661cb24cdd8b58e78778f5e992" style="width: 100.0%; height: 100.0%;">Baker, elevation:3285.0</div>')[0];
+                popup_9153b38a78cd4067894b0fba7c5f32a0.setContent(html_fdbac7661cb24cdd8b58e78778f5e992);
+            
+
+            circle_marker_8a301ad355f54a70b2ed3efa5ad5b67c.bindPopup(popup_9153b38a78cd4067894b0fba7c5f32a0);
+
+            
+        
+    
+            var circle_marker_cbc320c97ddf4ae9a8dc926dd65de4f2 = L.circleMarker(
+                [48.1118011,-121.1110001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_8d88cccd81c84db8abf653e922b2c705 = L.popup({maxWidth: '300'});
+
+            
+                var html_3cabf530db284354b7393de2b7ae7256 = $('<div id="html_3cabf530db284354b7393de2b7ae7256" style="width: 100.0%; height: 100.0%;">Glacier Peak, elevation:3213.0</div>')[0];
+                popup_8d88cccd81c84db8abf653e922b2c705.setContent(html_3cabf530db284354b7393de2b7ae7256);
+            
+
+            circle_marker_cbc320c97ddf4ae9a8dc926dd65de4f2.bindPopup(popup_8d88cccd81c84db8abf653e922b2c705);
+
+            
+        
+    
+            var circle_marker_5872ba65d3e94af1b6cf60bf0b814669 = L.circleMarker(
+                [46.8698006,-121.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_c3d3cf7fcabb4a6f8b97dc9f2f4e9a0a = L.popup({maxWidth: '300'});
+
+            
+                var html_7797db70ba2c4a10b47b479d658b489e = $('<div id="html_7797db70ba2c4a10b47b479d658b489e" style="width: 100.0%; height: 100.0%;">Rainier, elevation:4392.0</div>')[0];
+                popup_c3d3cf7fcabb4a6f8b97dc9f2f4e9a0a.setContent(html_7797db70ba2c4a10b47b479d658b489e);
+            
+
+            circle_marker_5872ba65d3e94af1b6cf60bf0b814669.bindPopup(popup_c3d3cf7fcabb4a6f8b97dc9f2f4e9a0a);
+
+            
+        
+    
+            var circle_marker_f3ce5f0cd2a24849af7f85b0684bb04c = L.circleMarker(
+                [46.1997986,-122.1809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_80edb315729743e5a0ae473af198d1d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf7b45b6bb214dff87b54302b9a13527 = $('<div id="html_bf7b45b6bb214dff87b54302b9a13527" style="width: 100.0%; height: 100.0%;">St. Helens, elevation:2549.0</div>')[0];
+                popup_80edb315729743e5a0ae473af198d1d5.setContent(html_bf7b45b6bb214dff87b54302b9a13527);
+            
+
+            circle_marker_f3ce5f0cd2a24849af7f85b0684bb04c.bindPopup(popup_80edb315729743e5a0ae473af198d1d5);
+
+            
+        
+    
+            var circle_marker_424d5c194b9740c3a9b116a1ce5a6deb = L.circleMarker(
+                [46.20579910000001,-121.4909973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_65f941053b68421aa7739787017cf848 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d1939ab66c9402bad9a173b584f3a81 = $('<div id="html_5d1939ab66c9402bad9a173b584f3a81" style="width: 100.0%; height: 100.0%;">Adams, elevation:3742.0</div>')[0];
+                popup_65f941053b68421aa7739787017cf848.setContent(html_5d1939ab66c9402bad9a173b584f3a81);
+            
+
+            circle_marker_424d5c194b9740c3a9b116a1ce5a6deb.bindPopup(popup_65f941053b68421aa7739787017cf848);
+
+            
+        
+    
+            var circle_marker_1dc94a48a5bd46c19e42ecbf2939f1dd = L.circleMarker(
+                [45.8797989,-122.0810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_f575736bd8eb46cb9ad3af95b514164f = L.popup({maxWidth: '300'});
+
+            
+                var html_58a39ffd3f454e76a8e24bfa542b3832 = $('<div id="html_58a39ffd3f454e76a8e24bfa542b3832" style="width: 100.0%; height: 100.0%;">West Crater, elevation:1329.0</div>')[0];
+                popup_f575736bd8eb46cb9ad3af95b514164f.setContent(html_58a39ffd3f454e76a8e24bfa542b3832);
+            
+
+            circle_marker_1dc94a48a5bd46c19e42ecbf2939f1dd.bindPopup(popup_f575736bd8eb46cb9ad3af95b514164f);
+
+            
+        
+    
+            var circle_marker_ab13a389d61a4364ac157ac66576a247 = L.circleMarker(
+                [45.929798100000006,-121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_388fa08baaa849c3870c2513357a7093 = L.popup({maxWidth: '300'});
+
+            
+                var html_4bee8e3367124fedbca0c8b37100f450 = $('<div id="html_4bee8e3367124fedbca0c8b37100f450" style="width: 100.0%; height: 100.0%;">Indian Heaven, elevation:1806.0</div>')[0];
+                popup_388fa08baaa849c3870c2513357a7093.setContent(html_4bee8e3367124fedbca0c8b37100f450);
+            
+
+            circle_marker_ab13a389d61a4364ac157ac66576a247.bindPopup(popup_388fa08baaa849c3870c2513357a7093);
+
+            
+        
+    
+            var circle_marker_4352335582cf4ae497c2a2c3cabbaa80 = L.circleMarker(
+                [45.3737984,-121.6910019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_a342adea3e104683820e8cb164ecbe77 = L.popup({maxWidth: '300'});
+
+            
+                var html_0277c34382d44b1c9d1e2a68bb7b49d1 = $('<div id="html_0277c34382d44b1c9d1e2a68bb7b49d1" style="width: 100.0%; height: 100.0%;">Hood, elevation:3426.0</div>')[0];
+                popup_a342adea3e104683820e8cb164ecbe77.setContent(html_0277c34382d44b1c9d1e2a68bb7b49d1);
+            
+
+            circle_marker_4352335582cf4ae497c2a2c3cabbaa80.bindPopup(popup_a342adea3e104683820e8cb164ecbe77);
+
+            
+        
+    
+            var circle_marker_f023e81b9278471d9a6217e7b7155823 = L.circleMarker(
+                [44.691799200000005,-121.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_8ad179a20271451f887c5c63e58f1e76 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e22fe87b31f419a872211f6bd0dc5bc = $('<div id="html_3e22fe87b31f419a872211f6bd0dc5bc" style="width: 100.0%; height: 100.0%;">Jefferson, elevation:3199.0</div>')[0];
+                popup_8ad179a20271451f887c5c63e58f1e76.setContent(html_3e22fe87b31f419a872211f6bd0dc5bc);
+            
+
+            circle_marker_f023e81b9278471d9a6217e7b7155823.bindPopup(popup_8ad179a20271451f887c5c63e58f1e76);
+
+            
+        
+    
+            var circle_marker_66a9f16778714dd08a726f890d87fb8e = L.circleMarker(
+                [44.4197998,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_c5349212a4794dfba1f6f4ad09998f1a = L.popup({maxWidth: '300'});
+
+            
+                var html_bef2f3f11ade45089470dca65517c9cb = $('<div id="html_bef2f3f11ade45089470dca65517c9cb" style="width: 100.0%; height: 100.0%;">Blue Lake Crater, elevation:1230.0</div>')[0];
+                popup_c5349212a4794dfba1f6f4ad09998f1a.setContent(html_bef2f3f11ade45089470dca65517c9cb);
+            
+
+            circle_marker_66a9f16778714dd08a726f890d87fb8e.bindPopup(popup_c5349212a4794dfba1f6f4ad09998f1a);
+
+            
+        
+    
+            var circle_marker_fe1fc53b6e314ab680061e8683ac4309 = L.circleMarker(
+                [44.3797989,-121.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_3553452a95014f319a21f789314bfdc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_549421aba463468d936d2e7c30fb0e39 = $('<div id="html_549421aba463468d936d2e7c30fb0e39" style="width: 100.0%; height: 100.0%;">Sand Mountain Field, elevation:1664.0</div>')[0];
+                popup_3553452a95014f319a21f789314bfdc7.setContent(html_549421aba463468d936d2e7c30fb0e39);
+            
+
+            circle_marker_fe1fc53b6e314ab680061e8683ac4309.bindPopup(popup_3553452a95014f319a21f789314bfdc7);
+
+            
+        
+    
+            var circle_marker_b48055d7feaa4d34a833372209af0879 = L.circleMarker(
+                [44.331798600000006,-121.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_822f5b667304468184b981675d5c353b = L.popup({maxWidth: '300'});
+
+            
+                var html_2213d0db4e74489984c3c26c77c2536e = $('<div id="html_2213d0db4e74489984c3c26c77c2536e" style="width: 100.0%; height: 100.0%;">Washington, elevation:2376.0</div>')[0];
+                popup_822f5b667304468184b981675d5c353b.setContent(html_2213d0db4e74489984c3c26c77c2536e);
+            
+
+            circle_marker_b48055d7feaa4d34a833372209af0879.bindPopup(popup_822f5b667304468184b981675d5c353b);
+
+            
+        
+    
+            var circle_marker_24ee91b881ef419c8f87187e9b4919e2 = L.circleMarker(
+                [44.2848015,-121.8410034],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_772cea6be15247fb9fc7a5f473b7974f = L.popup({maxWidth: '300'});
+
+            
+                var html_4790cb9054614552a23927cd7dba0e71 = $('<div id="html_4790cb9054614552a23927cd7dba0e71" style="width: 100.0%; height: 100.0%;">Belknap, elevation:2095.0</div>')[0];
+                popup_772cea6be15247fb9fc7a5f473b7974f.setContent(html_4790cb9054614552a23927cd7dba0e71);
+            
+
+            circle_marker_24ee91b881ef419c8f87187e9b4919e2.bindPopup(popup_772cea6be15247fb9fc7a5f473b7974f);
+
+            
+        
+    
+            var circle_marker_b6c3ca73160e4247bb0988058f33a133 = L.circleMarker(
+                [44.1697998,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_c4b74ebeb17448caae40136969413757 = L.popup({maxWidth: '300'});
+
+            
+                var html_b15a99d68c704623afca6a07744a8384 = $('<div id="html_b15a99d68c704623afca6a07744a8384" style="width: 100.0%; height: 100.0%;">North Sister Field, elevation:3074.0</div>')[0];
+                popup_c4b74ebeb17448caae40136969413757.setContent(html_b15a99d68c704623afca6a07744a8384);
+            
+
+            circle_marker_b6c3ca73160e4247bb0988058f33a133.bindPopup(popup_c4b74ebeb17448caae40136969413757);
+
+            
+        
+    
+            var circle_marker_e62f95aea9d24d1ea53173123e66d361 = L.circleMarker(
+                [44.099800099999996,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_e7c4138f2a164320aa6a33c75d23d13c = L.popup({maxWidth: '300'});
+
+            
+                var html_870a4da4dcc04b6f8ddcffdb01bb05f7 = $('<div id="html_870a4da4dcc04b6f8ddcffdb01bb05f7" style="width: 100.0%; height: 100.0%;">South Sister, elevation:3157.0</div>')[0];
+                popup_e7c4138f2a164320aa6a33c75d23d13c.setContent(html_870a4da4dcc04b6f8ddcffdb01bb05f7);
+            
+
+            circle_marker_e62f95aea9d24d1ea53173123e66d361.bindPopup(popup_e7c4138f2a164320aa6a33c75d23d13c);
+
+            
+        
+    
+            var circle_marker_311fef8789644872be020ac00f632d0c = L.circleMarker(
+                [43.978801700000005,-121.6809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_7e43dfbf12084bf58fb8732876b57094 = L.popup({maxWidth: '300'});
+
+            
+                var html_00b787b6007443978f7b2c660323f6a5 = $('<div id="html_00b787b6007443978f7b2c660323f6a5" style="width: 100.0%; height: 100.0%;">Bachelor, elevation:2763.0</div>')[0];
+                popup_7e43dfbf12084bf58fb8732876b57094.setContent(html_00b787b6007443978f7b2c660323f6a5);
+            
+
+            circle_marker_311fef8789644872be020ac00f632d0c.bindPopup(popup_7e43dfbf12084bf58fb8732876b57094);
+
+            
+        
+    
+            var circle_marker_a99455ce9cbd4cf2805226da8f04cffb = L.circleMarker(
+                [43.7218018,-121.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_a7a0ab5894264178a07351e1f055f220 = L.popup({maxWidth: '300'});
+
+            
+                var html_60cb78961fb944bc99d7c105a832dea2 = $('<div id="html_60cb78961fb944bc99d7c105a832dea2" style="width: 100.0%; height: 100.0%;">Newberry Volcano, elevation:2434.0</div>')[0];
+                popup_a7a0ab5894264178a07351e1f055f220.setContent(html_60cb78961fb944bc99d7c105a832dea2);
+            
+
+            circle_marker_a99455ce9cbd4cf2805226da8f04cffb.bindPopup(popup_a7a0ab5894264178a07351e1f055f220);
+
+            
+        
+    
+            var circle_marker_98ff0c27ca1840e484b13e1ae6fbdae6 = L.circleMarker(
+                [43.569801299999995,-121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_9e72eb63abde41a99f13b1245b7da910 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a5738c5004848dfb77d6dbe194545e2 = $('<div id="html_7a5738c5004848dfb77d6dbe194545e2" style="width: 100.0%; height: 100.0%;">Davis Lake, elevation:2163.0</div>')[0];
+                popup_9e72eb63abde41a99f13b1245b7da910.setContent(html_7a5738c5004848dfb77d6dbe194545e2);
+            
+
+            circle_marker_98ff0c27ca1840e484b13e1ae6fbdae6.bindPopup(popup_9e72eb63abde41a99f13b1245b7da910);
+
+            
+        
+    
+            var circle_marker_3770d61ec0634c87a5375768c2094004 = L.circleMarker(
+                [43.5119019,-120.8610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_e152fdcbe1e44c8585fee6a64048b405 = L.popup({maxWidth: '300'});
+
+            
+                var html_1d601bc3337942009a1f51daaefca450 = $('<div id="html_1d601bc3337942009a1f51daaefca450" style="width: 100.0%; height: 100.0%;">Devils Garden, elevation:1698.0</div>')[0];
+                popup_e152fdcbe1e44c8585fee6a64048b405.setContent(html_1d601bc3337942009a1f51daaefca450);
+            
+
+            circle_marker_3770d61ec0634c87a5375768c2094004.bindPopup(popup_e152fdcbe1e44c8585fee6a64048b405);
+
+            
+        
+    
+            var circle_marker_1dd8dc4a8a9545a5a168146e94e88e49 = L.circleMarker(
+                [43.240798999999996,-122.10099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_32430cb05dfd4fccafcdcc2902cb8bfd = L.popup({maxWidth: '300'});
+
+            
+                var html_7c4c586d68144a93b59451b42b872dde = $('<div id="html_7c4c586d68144a93b59451b42b872dde" style="width: 100.0%; height: 100.0%;">Cinnamon Butte, elevation:1956.0</div>')[0];
+                popup_32430cb05dfd4fccafcdcc2902cb8bfd.setContent(html_7c4c586d68144a93b59451b42b872dde);
+            
+
+            circle_marker_1dd8dc4a8a9545a5a168146e94e88e49.bindPopup(popup_32430cb05dfd4fccafcdcc2902cb8bfd);
+
+            
+        
+    
+            var circle_marker_6fd07a92da32442dab5e4a800c94d323 = L.circleMarker(
+                [43.471900899999994,-120.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_cfc0158b6def4267842a39b6e09fd93f = L.popup({maxWidth: '300'});
+
+            
+                var html_329e3c6bd2f64937aa9d353aece6d404 = $('<div id="html_329e3c6bd2f64937aa9d353aece6d404" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field, elevation:1711.0</div>')[0];
+                popup_cfc0158b6def4267842a39b6e09fd93f.setContent(html_329e3c6bd2f64937aa9d353aece6d404);
+            
+
+            circle_marker_6fd07a92da32442dab5e4a800c94d323.bindPopup(popup_cfc0158b6def4267842a39b6e09fd93f);
+
+            
+        
+    
+            var circle_marker_98b97806f8774e628707560ec34120a5 = L.circleMarker(
+                [43.3609009,-120.6610031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_fe16c8d928d5426fb5b37c9c56cdc20b = L.popup({maxWidth: '300'});
+
+            
+                var html_c0198f1aa84a414bbceb7313d23bfffd = $('<div id="html_c0198f1aa84a414bbceb7313d23bfffd" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field, elevation:1501.0</div>')[0];
+                popup_fe16c8d928d5426fb5b37c9c56cdc20b.setContent(html_c0198f1aa84a414bbceb7313d23bfffd);
+            
+
+            circle_marker_98b97806f8774e628707560ec34120a5.bindPopup(popup_fe16c8d928d5426fb5b37c9c56cdc20b);
+
+            
+        
+    
+            var circle_marker_0e9143a566e446479cf5df33830d8507 = L.circleMarker(
+                [42.9299011,-122.1210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_ce2eb6d0c0f54501a4b42e4e0085d94d = L.popup({maxWidth: '300'});
+
+            
+                var html_0cd8bec1a05847969df047968c3c2cea = $('<div id="html_0cd8bec1a05847969df047968c3c2cea" style="width: 100.0%; height: 100.0%;">Crater Lake, elevation:2487.0</div>')[0];
+                popup_ce2eb6d0c0f54501a4b42e4e0085d94d.setContent(html_0cd8bec1a05847969df047968c3c2cea);
+            
+
+            circle_marker_0e9143a566e446479cf5df33830d8507.bindPopup(popup_ce2eb6d0c0f54501a4b42e4e0085d94d);
+
+            
+        
+    
+            var circle_marker_7f1de8e47d4c472094155479f85e9b12 = L.circleMarker(
+                [44.4299011,-110.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_07d15df331b14b9ab9cce01e1b248c36 = L.popup({maxWidth: '300'});
+
+            
+                var html_c7f00640cf84427cb51e6f03cd3b2dd0 = $('<div id="html_c7f00640cf84427cb51e6f03cd3b2dd0" style="width: 100.0%; height: 100.0%;">Yellowstone, elevation:2805.0</div>')[0];
+                popup_07d15df331b14b9ab9cce01e1b248c36.setContent(html_c7f00640cf84427cb51e6f03cd3b2dd0);
+            
+
+            circle_marker_7f1de8e47d4c472094155479f85e9b12.bindPopup(popup_07d15df331b14b9ab9cce01e1b248c36);
+
+            
+        
+    
+            var circle_marker_c6a393f5f4de446daf9fd0482cb2cd0f = L.circleMarker(
+                [43.0998993,-118.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_6af5b2755eba4fc1888a9e705a4075eb = L.popup({maxWidth: '300'});
+
+            
+                var html_f71ce24c9a1049d88ae68329b2d2663b = $('<div id="html_f71ce24c9a1049d88ae68329b2d2663b" style="width: 100.0%; height: 100.0%;">Diamond Craters, elevation:1435.0</div>')[0];
+                popup_6af5b2755eba4fc1888a9e705a4075eb.setContent(html_f71ce24c9a1049d88ae68329b2d2663b);
+            
+
+            circle_marker_c6a393f5f4de446daf9fd0482cb2cd0f.bindPopup(popup_6af5b2755eba4fc1888a9e705a4075eb);
+
+            
+        
+    
+            var circle_marker_62d8743a30d743c4bae8f3bfbe5e4dcd = L.circleMarker(
+                [43.1498985,-117.4710007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_883f629d971f4032af1ed104572b7c29 = L.popup({maxWidth: '300'});
+
+            
+                var html_735ba6cd78f144cda45b6d3422fd13ee = $('<div id="html_735ba6cd78f144cda45b6d3422fd13ee" style="width: 100.0%; height: 100.0%;">Jordan Craters, elevation:1473.0</div>')[0];
+                popup_883f629d971f4032af1ed104572b7c29.setContent(html_735ba6cd78f144cda45b6d3422fd13ee);
+            
+
+            circle_marker_62d8743a30d743c4bae8f3bfbe5e4dcd.bindPopup(popup_883f629d971f4032af1ed104572b7c29);
+
+            
+        
+    
+            var circle_marker_2defafad77b442e69faf07608341b061 = L.circleMarker(
+                [42.9999008,-117.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_8f8551b02c3c44118943c5de1c5c231a = L.popup({maxWidth: '300'});
+
+            
+                var html_011b8e39b50845baa3bc339fc269376c = $('<div id="html_011b8e39b50845baa3bc339fc269376c" style="width: 100.0%; height: 100.0%;">Saddle Butte, elevation:1700.0</div>')[0];
+                popup_8f8551b02c3c44118943c5de1c5c231a.setContent(html_011b8e39b50845baa3bc339fc269376c);
+            
+
+            circle_marker_2defafad77b442e69faf07608341b061.bindPopup(popup_8f8551b02c3c44118943c5de1c5c231a);
+
+            
+        
+    
+            var circle_marker_49e3bb023e6a40b289ac0eb10ba4f6d6 = L.circleMarker(
+                [43.419899,-113.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_ef52999682aa429ba219454c559b43b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_61574bd08b604ed9af5d036125db3960 = $('<div id="html_61574bd08b604ed9af5d036125db3960" style="width: 100.0%; height: 100.0%;">Craters of the Moon, elevation:2005.0</div>')[0];
+                popup_ef52999682aa429ba219454c559b43b1.setContent(html_61574bd08b604ed9af5d036125db3960);
+            
+
+            circle_marker_49e3bb023e6a40b289ac0eb10ba4f6d6.bindPopup(popup_ef52999682aa429ba219454c559b43b1);
+
+            
+        
+    
+            var circle_marker_59755a77b44643ec897e9a52be0bc1b9 = L.circleMarker(
+                [43.4999008,-112.45099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_1f4bc01af35e4134ac2a8842d2f6188b = L.popup({maxWidth: '300'});
+
+            
+                var html_6b41e42154d7413dba6eb807490be402 = $('<div id="html_6b41e42154d7413dba6eb807490be402" style="width: 100.0%; height: 100.0%;">Hell&#39;s Half Acre, elevation:1631.0</div>')[0];
+                popup_1f4bc01af35e4134ac2a8842d2f6188b.setContent(html_6b41e42154d7413dba6eb807490be402);
+            
+
+            circle_marker_59755a77b44643ec897e9a52be0bc1b9.bindPopup(popup_1f4bc01af35e4134ac2a8842d2f6188b);
+
+            
+        
+    
+            var circle_marker_da3500f37f9e435eb933393aacf2a174 = L.circleMarker(
+                [43.1799011,-114.35099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_9c446d8b2a7945c18770dbf55fe21a58 = L.popup({maxWidth: '300'});
+
+            
+                var html_d53a8589840445b69f7f3c050364119a = $('<div id="html_d53a8589840445b69f7f3c050364119a" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field, elevation:1478.0</div>')[0];
+                popup_9c446d8b2a7945c18770dbf55fe21a58.setContent(html_d53a8589840445b69f7f3c050364119a);
+            
+
+            circle_marker_da3500f37f9e435eb933393aacf2a174.bindPopup(popup_9c446d8b2a7945c18770dbf55fe21a58);
+
+            
+        
+    
+            var circle_marker_ca340f9ccf6e444094443a8741f5332e = L.circleMarker(
+                [42.605899799999996,-117.5810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_b9f7b90716ea4971b3119cbcd2716c58 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6bb4988b9ac4e2a93c05dd06e4fe16d = $('<div id="html_c6bb4988b9ac4e2a93c05dd06e4fe16d" style="width: 100.0%; height: 100.0%;">Jackies Butte, elevation:1418.0</div>')[0];
+                popup_b9f7b90716ea4971b3119cbcd2716c58.setContent(html_c6bb4988b9ac4e2a93c05dd06e4fe16d);
+            
+
+            circle_marker_ca340f9ccf6e444094443a8741f5332e.bindPopup(popup_b9f7b90716ea4971b3119cbcd2716c58);
+
+            
+        
+    
+            var circle_marker_1ca446c886764069b2249ac335a04c3d = L.circleMarker(
+                [41.579898799999995,-121.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_31f91c0b547f4f1580e738d9a3be388b = L.popup({maxWidth: '300'});
+
+            
+                var html_a030607bbbf649c485d4a51545067002 = $('<div id="html_a030607bbbf649c485d4a51545067002" style="width: 100.0%; height: 100.0%;">Medicine Lake, elevation:2412.0</div>')[0];
+                popup_31f91c0b547f4f1580e738d9a3be388b.setContent(html_a030607bbbf649c485d4a51545067002);
+            
+
+            circle_marker_1ca446c886764069b2249ac335a04c3d.bindPopup(popup_31f91c0b547f4f1580e738d9a3be388b);
+
+            
+        
+    
+            var circle_marker_f52af33aaedd431da59e65ea56391530 = L.circleMarker(
+                [42.8799019,-113.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_cc25fa22cb04484d85e5020c6c18df03 = L.popup({maxWidth: '300'});
+
+            
+                var html_47fe31f65f0944a4bb6ba93694330313 = $('<div id="html_47fe31f65f0944a4bb6ba93694330313" style="width: 100.0%; height: 100.0%;">Wapi Lava Field, elevation:1604.0</div>')[0];
+                popup_cc25fa22cb04484d85e5020c6c18df03.setContent(html_47fe31f65f0944a4bb6ba93694330313);
+            
+
+            circle_marker_f52af33aaedd431da59e65ea56391530.bindPopup(popup_cc25fa22cb04484d85e5020c6c18df03);
+
+            
+        
+    
+            var circle_marker_aae8469a70df47ef832c743037ca1a6d = L.circleMarker(
+                [41.419899,-122.20099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_ba8cbc675a5846e6ac80d03eede3cc9b = L.popup({maxWidth: '300'});
+
+            
+                var html_6d9ebe3db85d475fa60a167ea5984b7e = $('<div id="html_6d9ebe3db85d475fa60a167ea5984b7e" style="width: 100.0%; height: 100.0%;">Shasta, elevation:4317.0</div>')[0];
+                popup_ba8cbc675a5846e6ac80d03eede3cc9b.setContent(html_6d9ebe3db85d475fa60a167ea5984b7e);
+            
+
+            circle_marker_aae8469a70df47ef832c743037ca1a6d.bindPopup(popup_ba8cbc675a5846e6ac80d03eede3cc9b);
+
+            
+        
+    
+            var circle_marker_cddf2bae09194e4f8ef732e730e32f64 = L.circleMarker(
+                [41.1778984,-121.4410019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_c13be900532e4bc1935da1f4e0c31843 = L.popup({maxWidth: '300'});
+
+            
+                var html_477570aca498466f8509019fbe8df054 = $('<div id="html_477570aca498466f8509019fbe8df054" style="width: 100.0%; height: 100.0%;">Brushy Butte, elevation:1174.0</div>')[0];
+                popup_c13be900532e4bc1935da1f4e0c31843.setContent(html_477570aca498466f8509019fbe8df054);
+            
+
+            circle_marker_cddf2bae09194e4f8ef732e730e32f64.bindPopup(popup_c13be900532e4bc1935da1f4e0c31843);
+
+            
+        
+    
+            var circle_marker_1b11ef359eb64b72868d582a8b2d4aef = L.circleMarker(
+                [40.954898799999995,-121.3610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_36523938e6394736bc4d2bad53fc48b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6e40a16f06b4b2099aa24eafb01c0e2 = $('<div id="html_f6e40a16f06b4b2099aa24eafb01c0e2" style="width: 100.0%; height: 100.0%;">Big Cave, elevation:1259.0</div>')[0];
+                popup_36523938e6394736bc4d2bad53fc48b0.setContent(html_f6e40a16f06b4b2099aa24eafb01c0e2);
+            
+
+            circle_marker_1b11ef359eb64b72868d582a8b2d4aef.bindPopup(popup_36523938e6394736bc4d2bad53fc48b0);
+
+            
+        
+    
+            var circle_marker_69fa0aa13cf64191b4512c76943b99b7 = L.circleMarker(
+                [40.77989960000001,-121.60099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_2a31033e46234a259b6baa4e879794a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_4326b069954041928c8ec42d54d259fb = $('<div id="html_4326b069954041928c8ec42d54d259fb" style="width: 100.0%; height: 100.0%;">Twin Buttes, elevation:1631.0</div>')[0];
+                popup_2a31033e46234a259b6baa4e879794a9.setContent(html_4326b069954041928c8ec42d54d259fb);
+            
+
+            circle_marker_69fa0aa13cf64191b4512c76943b99b7.bindPopup(popup_2a31033e46234a259b6baa4e879794a9);
+
+            
+        
+    
+            var circle_marker_413af30fe3324200b01ffbd517d8e8f8 = L.circleMarker(
+                [40.6799011,-121.5510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_1862e17b2bc849f4813c492b3cbe3527 = L.popup({maxWidth: '300'});
+
+            
+                var html_d8be25c655c64e588cb1fcde94b7c069 = $('<div id="html_d8be25c655c64e588cb1fcde94b7c069" style="width: 100.0%; height: 100.0%;">Tumble Buttes, elevation:2191.0</div>')[0];
+                popup_1862e17b2bc849f4813c492b3cbe3527.setContent(html_d8be25c655c64e588cb1fcde94b7c069);
+            
+
+            circle_marker_413af30fe3324200b01ffbd517d8e8f8.bindPopup(popup_1862e17b2bc849f4813c492b3cbe3527);
+
+            
+        
+    
+            var circle_marker_d481a62878d04ae499f1ebe1b557435d = L.circleMarker(
+                [40.6299019,-120.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_a3e294a36664487484b83d8d19b14c29 = L.popup({maxWidth: '300'});
+
+            
+                var html_6df163e550544c6db7157dfa4b57d052 = $('<div id="html_6df163e550544c6db7157dfa4b57d052" style="width: 100.0%; height: 100.0%;">Eagle Lake Field, elevation:1652.0</div>')[0];
+                popup_a3e294a36664487484b83d8d19b14c29.setContent(html_6df163e550544c6db7157dfa4b57d052);
+            
+
+            circle_marker_d481a62878d04ae499f1ebe1b557435d.bindPopup(popup_a3e294a36664487484b83d8d19b14c29);
+
+            
+        
+    
+            var circle_marker_6d699c338d3d4d3d86fa8d540a62d85a = L.circleMarker(
+                [40.491901399999996,-121.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_bac7150c87054d8487b5a1a6e9e8c036 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd171deac923497e968c090b515e4073 = $('<div id="html_cd171deac923497e968c090b515e4073" style="width: 100.0%; height: 100.0%;">Lassen Volc Center, elevation:3187.0</div>')[0];
+                popup_bac7150c87054d8487b5a1a6e9e8c036.setContent(html_cd171deac923497e968c090b515e4073);
+            
+
+            circle_marker_6d699c338d3d4d3d86fa8d540a62d85a.bindPopup(popup_bac7150c87054d8487b5a1a6e9e8c036);
+
+            
+        
+    
+            var circle_marker_01a6279e173143a48b075844bd083351 = L.circleMarker(
+                [38.9698982,-122.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_5634b1d167814d48a4e6b82a7dfdcc77 = L.popup({maxWidth: '300'});
+
+            
+                var html_938ade51553447468f2a521305530c6b = $('<div id="html_938ade51553447468f2a521305530c6b" style="width: 100.0%; height: 100.0%;">Clear Lake, elevation:1439.0</div>')[0];
+                popup_5634b1d167814d48a4e6b82a7dfdcc77.setContent(html_938ade51553447468f2a521305530c6b);
+            
+
+            circle_marker_01a6279e173143a48b075844bd083351.bindPopup(popup_5634b1d167814d48a4e6b82a7dfdcc77);
+
+            
+        
+    
+            var circle_marker_5a8bbd58802e498d9190f7e3c999bee3 = L.circleMarker(
+                [39.3749008,-119.7210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_88730b472d0b47f388e188233156bc72 = L.popup({maxWidth: '300'});
+
+            
+                var html_4467ad2df46a4186ad045711a1c3ac48 = $('<div id="html_4467ad2df46a4186ad045711a1c3ac48" style="width: 100.0%; height: 100.0%;">Steamboat Springs, elevation:1415.0</div>')[0];
+                popup_88730b472d0b47f388e188233156bc72.setContent(html_4467ad2df46a4186ad045711a1c3ac48);
+            
+
+            circle_marker_5a8bbd58802e498d9190f7e3c999bee3.bindPopup(popup_88730b472d0b47f388e188233156bc72);
+
+            
+        
+    
+            var circle_marker_da0b8629929c4683bafaf673c851b2ab = L.circleMarker(
+                [39.6500015,-107.03099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_732adf32af4a428d99d68842e88de3aa = L.popup({maxWidth: '300'});
+
+            
+                var html_543e3bb3bac24f739656b662fc39d47f = $('<div id="html_543e3bb3bac24f739656b662fc39d47f" style="width: 100.0%; height: 100.0%;">Dotsero, elevation:2230.0</div>')[0];
+                popup_732adf32af4a428d99d68842e88de3aa.setContent(html_543e3bb3bac24f739656b662fc39d47f);
+            
+
+            circle_marker_da0b8629929c4683bafaf673c851b2ab.bindPopup(popup_732adf32af4a428d99d68842e88de3aa);
+
+            
+        
+    
+            var circle_marker_ca9b7318d2a4460a9bc0a9e2cefa584f = L.circleMarker(
+                [37.9999008,-119.03099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_c9ed84aa3518456ca12603237b6ba97a = L.popup({maxWidth: '300'});
+
+            
+                var html_e0f60883f2d24a9ab56a481902102e82 = $('<div id="html_e0f60883f2d24a9ab56a481902102e82" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field, elevation:2121.0</div>')[0];
+                popup_c9ed84aa3518456ca12603237b6ba97a.setContent(html_e0f60883f2d24a9ab56a481902102e82);
+            
+
+            circle_marker_ca9b7318d2a4460a9bc0a9e2cefa584f.bindPopup(popup_c9ed84aa3518456ca12603237b6ba97a);
+
+            
+        
+    
+            var circle_marker_399bd9a2479b43308d85ae366b5288be = L.circleMarker(
+                [38.970001200000006,-112.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_068703214ced4654bcfe4464d7843d5f = L.popup({maxWidth: '300'});
+
+            
+                var html_e4500bf148d440b8a6aeb959bd068b7f = $('<div id="html_e4500bf148d440b8a6aeb959bd068b7f" style="width: 100.0%; height: 100.0%;">Black Rock Desert, elevation:1800.0</div>')[0];
+                popup_068703214ced4654bcfe4464d7843d5f.setContent(html_e4500bf148d440b8a6aeb959bd068b7f);
+            
+
+            circle_marker_399bd9a2479b43308d85ae366b5288be.bindPopup(popup_068703214ced4654bcfe4464d7843d5f);
+
+            
+        
+    
+            var circle_marker_0d385d84065c4bdfa1b4c1cb31f1e747 = L.circleMarker(
+                [37.8799019,-119.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_abfdaa24ca894d75b708861c495a3faa = L.popup({maxWidth: '300'});
+
+            
+                var html_563c29f562164314ae0df3f8e4095b83 = $('<div id="html_563c29f562164314ae0df3f8e4095b83" style="width: 100.0%; height: 100.0%;">Mono Craters, elevation:2796.0</div>')[0];
+                popup_abfdaa24ca894d75b708861c495a3faa.setContent(html_563c29f562164314ae0df3f8e4095b83);
+            
+
+            circle_marker_0d385d84065c4bdfa1b4c1cb31f1e747.bindPopup(popup_abfdaa24ca894d75b708861c495a3faa);
+
+            
+        
+    
+            var circle_marker_59695b5e5a244261a87907be34b7b5ce = L.circleMarker(
+                [37.6918983,-119.0210037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_9b7bcef0fc7c407dab4d34ca2385d293 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ba9d3dab18d4e87bce381aebd256df4 = $('<div id="html_0ba9d3dab18d4e87bce381aebd256df4" style="width: 100.0%; height: 100.0%;">Inyo Craters, elevation:2629.0</div>')[0];
+                popup_9b7bcef0fc7c407dab4d34ca2385d293.setContent(html_0ba9d3dab18d4e87bce381aebd256df4);
+            
+
+            circle_marker_59695b5e5a244261a87907be34b7b5ce.bindPopup(popup_9b7bcef0fc7c407dab4d34ca2385d293);
+
+            
+        
+    
+            var circle_marker_eb7e3f7d2f104e429fecbde36599d993 = L.circleMarker(
+                [37.6999016,-118.8710022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_41125d8ec11d4f99ba7f8c62c6d43fac = L.popup({maxWidth: '300'});
+
+            
+                var html_c4be5745d6af4592a7db7544ce1f7fb5 = $('<div id="html_c4be5745d6af4592a7db7544ce1f7fb5" style="width: 100.0%; height: 100.0%;">Long Valley, elevation:3390.0</div>')[0];
+                popup_41125d8ec11d4f99ba7f8c62c6d43fac.setContent(html_c4be5745d6af4592a7db7544ce1f7fb5);
+            
+
+            circle_marker_eb7e3f7d2f104e429fecbde36599d993.bindPopup(popup_41125d8ec11d4f99ba7f8c62c6d43fac);
+
+            
+        
+    
+            var circle_marker_e8880952a13644e2bb83314d72bc88eb = L.circleMarker(
+                [37.579898799999995,-119.0510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_248869560b1d4812aa9861a32e012727 = L.popup({maxWidth: '300'});
+
+            
+                var html_9570538c9c0c42c5bedcc1fb1ee0aae8 = $('<div id="html_9570538c9c0c42c5bedcc1fb1ee0aae8" style="width: 100.0%; height: 100.0%;">Red Cones, elevation:2748.0</div>')[0];
+                popup_248869560b1d4812aa9861a32e012727.setContent(html_9570538c9c0c42c5bedcc1fb1ee0aae8);
+            
+
+            circle_marker_e8880952a13644e2bb83314d72bc88eb.bindPopup(popup_248869560b1d4812aa9861a32e012727);
+
+            
+        
+    
+            var circle_marker_585e55453e1546728543a456834261c9 = L.circleMarker(
+                [37.0199013,-117.45099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_b05980361b2f48e5a55c9789662aaf3b = L.popup({maxWidth: '300'});
+
+            
+                var html_fac31b1cd085475e883871b3c267260c = $('<div id="html_fac31b1cd085475e883871b3c267260c" style="width: 100.0%; height: 100.0%;">Ubehebe Craters, elevation:752.0</div>')[0];
+                popup_b05980361b2f48e5a55c9789662aaf3b.setContent(html_fac31b1cd085475e883871b3c267260c);
+            
+
+            circle_marker_585e55453e1546728543a456834261c9.bindPopup(popup_b05980361b2f48e5a55c9789662aaf3b);
+
+            
+        
+    
+            var circle_marker_821c246ce92545aa9061474863a34273 = L.circleMarker(
+                [37.5800018,-112.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_b5d469c6a8b94a81bf03e77dcb151ba2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2cc357091d6543e2b608132e3f97844b = $('<div id="html_2cc357091d6543e2b608132e3f97844b" style="width: 100.0%; height: 100.0%;">Markagunt Plateau, elevation:2840.0</div>')[0];
+                popup_b5d469c6a8b94a81bf03e77dcb151ba2.setContent(html_2cc357091d6543e2b608132e3f97844b);
+            
+
+            circle_marker_821c246ce92545aa9061474863a34273.bindPopup(popup_b5d469c6a8b94a81bf03e77dcb151ba2);
+
+            
+        
+    
+            var circle_marker_90bd4a77d17440b491f8f91906fca61d = L.circleMarker(
+                [37.257,-113.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_c6d76443169a4109b8ac223f873116c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_848c228a98b3424cb4c4d2a719381c3b = $('<div id="html_848c228a98b3424cb4c4d2a719381c3b" style="width: 100.0%; height: 100.0%;">Santa Clara, elevation:1465.0</div>')[0];
+                popup_c6d76443169a4109b8ac223f873116c3.setContent(html_848c228a98b3424cb4c4d2a719381c3b);
+            
+
+            circle_marker_90bd4a77d17440b491f8f91906fca61d.bindPopup(popup_c6d76443169a4109b8ac223f873116c3);
+
+            
+        
+    
+            var circle_marker_467c50e9b68040dfa7f261e9d7743e61 = L.circleMarker(
+                [37.32799910000001,-112.40100100000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_2bc0fb6957b04da29b601db927700166 = L.popup({maxWidth: '300'});
+
+            
+                var html_77949a4a466b488ca9a5de33d7b74b07 = $('<div id="html_77949a4a466b488ca9a5de33d7b74b07" style="width: 100.0%; height: 100.0%;">Bald Knoll, elevation:2135.0</div>')[0];
+                popup_2bc0fb6957b04da29b601db927700166.setContent(html_77949a4a466b488ca9a5de33d7b74b07);
+            
+
+            circle_marker_467c50e9b68040dfa7f261e9d7743e61.bindPopup(popup_2bc0fb6957b04da29b601db927700166);
+
+            
+        
+    
+            var circle_marker_987cf569060a45949bd8b378ab248023 = L.circleMarker(
+                [36.3578987,-118.3209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_063b13704b9d4efdb628cd30a9222e6f = L.popup({maxWidth: '300'});
+
+            
+                var html_5412fb77931e478cb9dd38d3924a900c = $('<div id="html_5412fb77931e478cb9dd38d3924a900c" style="width: 100.0%; height: 100.0%;">Golden Trout Creek, elevation:2886.0</div>')[0];
+                popup_063b13704b9d4efdb628cd30a9222e6f.setContent(html_5412fb77931e478cb9dd38d3924a900c);
+            
+
+            circle_marker_987cf569060a45949bd8b378ab248023.bindPopup(popup_063b13704b9d4efdb628cd30a9222e6f);
+
+            
+        
+    
+            var circle_marker_3275b3441ce241489f507ff21376b290 = L.circleMarker(
+                [36.02989960000001,-117.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_089adab5a2bd46f395da4cf2402e35ce = L.popup({maxWidth: '300'});
+
+            
+                var html_83a21fd889bf4c4d90cf25a16a164c0f = $('<div id="html_83a21fd889bf4c4d90cf25a16a164c0f" style="width: 100.0%; height: 100.0%;">Coso Volc Field, elevation:2400.0</div>')[0];
+                popup_089adab5a2bd46f395da4cf2402e35ce.setContent(html_83a21fd889bf4c4d90cf25a16a164c0f);
+            
+
+            circle_marker_3275b3441ce241489f507ff21376b290.bindPopup(popup_089adab5a2bd46f395da4cf2402e35ce);
+
+            
+        
+    
+            var circle_marker_3018e0eeaa0741c7a2caa97fd2a9d9a3 = L.circleMarker(
+                [36.3800011,-113.1309967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_1275822d59564e98a35231edc634b3a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_8fadd2b7d90d4a708d8ce3252f9e03e8 = $('<div id="html_8fadd2b7d90d4a708d8ce3252f9e03e8" style="width: 100.0%; height: 100.0%;">Uinkaret Field, elevation:1555.0</div>')[0];
+                popup_1275822d59564e98a35231edc634b3a3.setContent(html_8fadd2b7d90d4a708d8ce3252f9e03e8);
+            
+
+            circle_marker_3018e0eeaa0741c7a2caa97fd2a9d9a3.bindPopup(popup_1275822d59564e98a35231edc634b3a3);
+
+            
+        
+    
+            var circle_marker_7eddc4dd8641430a961e3a2e4f885919 = L.circleMarker(
+                [34.75,-116.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_306d6674787f4e8d898a9bb80eb291e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a3a701cffd44ea7a735ccd516991b5d = $('<div id="html_1a3a701cffd44ea7a735ccd516991b5d" style="width: 100.0%; height: 100.0%;">Lavic Lake, elevation:1495.0</div>')[0];
+                popup_306d6674787f4e8d898a9bb80eb291e5.setContent(html_1a3a701cffd44ea7a735ccd516991b5d);
+            
+
+            circle_marker_7eddc4dd8641430a961e3a2e4f885919.bindPopup(popup_306d6674787f4e8d898a9bb80eb291e5);
+
+            
+        
+    
+            var circle_marker_2ee970df6bfc4f718f13e560fb499ac6 = L.circleMarker(
+                [35.8699989,-106.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_fdc8326c0fb54d129e18528f60963014 = L.popup({maxWidth: '300'});
+
+            
+                var html_71a1ceae73014125ae9fcb5e10898446 = $('<div id="html_71a1ceae73014125ae9fcb5e10898446" style="width: 100.0%; height: 100.0%;">Valles Caldera, elevation:3430.0</div>')[0];
+                popup_fdc8326c0fb54d129e18528f60963014.setContent(html_71a1ceae73014125ae9fcb5e10898446);
+            
+
+            circle_marker_2ee970df6bfc4f718f13e560fb499ac6.bindPopup(popup_fdc8326c0fb54d129e18528f60963014);
+
+            
+        
+    
+            var circle_marker_416b27c33f704f64b2ea598509686214 = L.circleMarker(
+                [35.3699989,-111.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_dbca7ded75604ccea58dd3694119a2be = L.popup({maxWidth: '300'});
+
+            
+                var html_633bc14649294cadbf504afae0aecdea = $('<div id="html_633bc14649294cadbf504afae0aecdea" style="width: 100.0%; height: 100.0%;">Sunset Crater, elevation:2447.0</div>')[0];
+                popup_dbca7ded75604ccea58dd3694119a2be.setContent(html_633bc14649294cadbf504afae0aecdea);
+            
+
+            circle_marker_416b27c33f704f64b2ea598509686214.bindPopup(popup_dbca7ded75604ccea58dd3694119a2be);
+
+            
+        
+    
+            var circle_marker_3e263893d6cc480e8db0866c93843462 = L.circleMarker(
+                [34.5499992,-115.78099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_aebf023813c347d4a92b22603084c947 = L.popup({maxWidth: '300'});
+
+            
+                var html_639c4e85a0cb470da985d20c59bbe05a = $('<div id="html_639c4e85a0cb470da985d20c59bbe05a" style="width: 100.0%; height: 100.0%;">Amboy, elevation:288.0</div>')[0];
+                popup_aebf023813c347d4a92b22603084c947.setContent(html_639c4e85a0cb470da985d20c59bbe05a);
+            
+
+            circle_marker_3e263893d6cc480e8db0866c93843462.bindPopup(popup_aebf023813c347d4a92b22603084c947);
+
+            
+        
+    
+            var circle_marker_2a8ad47ad23948e4be082fbf4628a253 = L.circleMarker(
+                [34.7999992,-108.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_59041ed4894845e8971fe3221477ea84 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a900238fc664c2ea28424bd635ea51c = $('<div id="html_3a900238fc664c2ea28424bd635ea51c" style="width: 100.0%; height: 100.0%;">Zuni-Bandera, elevation:2550.0</div>')[0];
+                popup_59041ed4894845e8971fe3221477ea84.setContent(html_3a900238fc664c2ea28424bd635ea51c);
+            
+
+            circle_marker_2a8ad47ad23948e4be082fbf4628a253.bindPopup(popup_59041ed4894845e8971fe3221477ea84);
+
+            
+        
+    
+            var circle_marker_75248d1c986d4b00b7a5f40c71ea8365 = L.circleMarker(
+                [33.7801018,-105.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1d7c9769c0f647578728c07b16c1c66f);
+            
+    
+            var popup_7e92933cb1c943d5b4987559c73963ab = L.popup({maxWidth: '300'});
+
+            
+                var html_7f00a2d1969a49698c9237ec46b514e0 = $('<div id="html_7f00a2d1969a49698c9237ec46b514e0" style="width: 100.0%; height: 100.0%;">Carrizozo, elevation:1731.0</div>')[0];
+                popup_7e92933cb1c943d5b4987559c73963ab.setContent(html_7f00a2d1969a49698c9237ec46b514e0);
+            
+
+            circle_marker_75248d1c986d4b00b7a5f40c71ea8365.bindPopup(popup_7e92933cb1c943d5b4987559c73963ab);
+
+            
+        
+</script>
